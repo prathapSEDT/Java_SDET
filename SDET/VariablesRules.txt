@@ -1,0 +1,58 @@
+variable can store max of one value one at a time.
+once you assign a value to the variable with some type of data, user is not allowed to store any other type data
+
+when you create a variable always try to give the name of the variable, which is realated to the business process that you are working on.
+
+say suppose i am working on a registration form
+
+a,v,xy ,z--- what exactly a,b,x,z is representing?
+
+
+be more clear on the variable naming convention, try to provide a buiness related name to the variable.
+
+for ex: userName, passWord,age
+
+
+What is temp variable ?
+
+temp variable is avariable which is used to store temp data
+it is not special type available in java.
+user craeted his own term in java, in storing the temp data.
+
+ex:
+
+Raj has avariable called a, having 25 value inside it.
+
+when ever raj is getting a new value, he need to add the new value to the already created variable "a" but should add with old existing data.
+a=30
+a=55
+
+a=a+new value
+
+
+Interview Question:
+
+i have a variable called as a and other variable called as b
+
+intialzed both the variables with the value as 20,30
+
+now if i print a i need to get the output of b
+
+if i print b , i need to get the output of a...
+
+conditions:
+1.write logic using a temp variable
+2.write logic without using a temp variable.
+
+
+
+tips:
+1.understand the question, raise your question if you are comfortable wit the question.
+2.think what is the logic to write
+3.see what is the right synatx to write the logic
+4.if there are any methods available, search for the right method
+5.implement
+
+
+
+

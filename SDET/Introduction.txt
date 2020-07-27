@@ -1,0 +1,98 @@
+Java is a programming language created in 1995.
+
+Java is used to build the applications like
+
+	* Mobile based
+	* dsktop based
+	* web based
+	* server based application
+	* Games developements
+	* DB of type any
+Java can be able to run on platform name it like linux, win or max
+Java is easy programming language it is completely a rule based programming language.
+Java as aprogramming language, available as a open source programming language with free of cost.
+java has huge community support where 98.9% of technical solutions are available on the stack overflow and google engine
+
+Java supports object orieneted programming language, which is used for the purpose of code reusabilty
+
+How to get starts with java now?
+
+Right now java is the owned by oracle enterprise.
+
+steps: Get the java from google by searching for java 1.8 jdk downlaod
+
+
+What is JDK ?
+
+What is JRE?
+
+
+when i installed my java why do you suggested me to take JDK why not JRE?
+
+Diff b/n JDK and JRE?
+
+JDK -- java developement kit it is used to develop the application using java as a programming language.
+
+It helps to develop and execute the program developed by the user
+
+
+JRE--- Java Run time environment
+
+It is used to only execute the programs.
+It wont help us to develop new programs
+
+we need a person who can able to develop and execute the programs usig java, so we decided to use JDK.
+
+
+what is meant JVM?
+
+JVM is called as compiler
+it is responsble to convert the user written java code into machine undersatnading language
+this jvm is a self programmed one, where all the rules and regualtion are given under ythis JVM
+
+when the user tries to write any program or any line of code, immedialtley this JVM will get invoked and scan the program, and verify if it  is matching with the java rule r not.
+
+this JVM will come along with JDK.
+
+You no need download JDK explicitly.
+
+
+To write or to develop teh programs in java we need a place holder, that place holder is called as an IDE
+
+IDE stands for Integrated development environment.
+
+Easy to use
+Should more intellectual , to suggest the user if there is any mistake available on the written code.
+Easy navigation form one program to another program
+easy identification of the program
+easy installation
+easy configurable with any SCM supported tools like GIT hub, Bitbucket etc...
+
+in the market we have different types of IDE available
+
+1.intelliJ
+
+2.Eclipse
+
+
+once i installed my ide on the system , what are the further steps i need to do?
+
+1.check if you are able to write  a sample program and chek the output is coming as expected.
+
+steps:
+1.create a project
+2.create a package
+3.create a classfile under newly created pacakge
+4.create a main method on the class file
+
+
+
+
+
+
+
+
+
+
+
+

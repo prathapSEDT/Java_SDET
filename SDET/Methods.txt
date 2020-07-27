@@ -1,0 +1,144 @@
+what is meant by method ?
+
+method is called as a block of code which is used to write business logic inside it for the purpose of reusability
+
+when i start writting any logic, i should think if thiat particular logic , will be reusable at any where?
+
+if you think that is reusable, then we should create amethod for that logic.
+
+
+in java to create a method there is a specific syantax available.
+
+
+accessspecifier static/instance returntype methodName()
+{
+
+}
+
+accessspecifier is used to tell the compiler about the accessing. access specifier will restrict the user and control the accessing of the method.
+
+in java access specifiers are called as 
+
+	* public
+	* private
+	* protected
+	* default
+
+static/Instance:these two terms are very important and play a major role in java.
+these repreent the memory management in java
+
+return type:
+if your logic is perform some opertaion and if you want to send back any data, say like the output of the logic to the user , then we use return type.
+
+basically for the return type we use a datatype here.
+when you dont have any value to return back to the user, then we use void as a return type.
+
+void represent that particular method is not returning any value from the method.
+
+methodName:
+it is the name given to the method, it have same rule applied what ever we have on the variable.
+
+
+
+to access the method available in the class, it is based upon the type of method.
+
+check what type of method it is? is it a static method or a instance method?
+
+how to identify?
+if there is a static keyword, then it is called as static method
+if there is not static keyoword then it is called as instance method.
+
+
+if the method type is static , we can access it by using the classname.
+
+syntax:
+className.methodName();
+
+
+if the method is a instance method, then access them by using an object
+
+syntax:
+ClassName refVarible=new ClassName():
+
+here new ClassName() is called as an object.
+
+here the major difference between static or instance is?
+
+for all static memebers, class will allocate memeory
+
+for all instance memebers object will allocate memeory.
+
+when ever we create an object , a new memory reference with unique address wil be craeted.
+
+
+when you try o create a method, see if the logic get execute with different set of data.
+
+if your logic is expecting any input data , never try to hardcode it. always try to pass a value to the method.
+
+accepting values by a method is called as "Parameters"
+
+sending values to the method is called as "Arguments"
+
+
+number of parameters must be equal to number of arguments vise versa.
+
+
+parameters must be specified with the datatype and a variableName.
+paremeters must write with in the ().of a method
+
+
+
+
+How to return a value from a method?
+
+to return a value from a method, we should use return keyword inside a method
+
+if a method is returning a value, we can store it in an variable.
+
+note:
+after the return keyword, we are not allowed to write any logic.
+when there is return keyword available, the method will think that it is the end of a block.
+
+when we attempted to write any logic after the return keyword, it will throw an exception saying that unreachable code.
+
+
+
+where will i use this method implementation?
+
+as QA i should know where and how exactly i will be using this method implemenation?
+
+TC01:
+1.Launch application
+2.Click Register link
+3.Verif user navigated to register page
+4.Fill the form
+5.click on save button
+6.verify the user is registered sucessfully on the system.
+
+
+TC02:
+1.Launch application
+2.Click login link
+3.Verif user navigated to login page
+4.Enter UserName and PassWord
+5.click on login button
+6.verify the user is login into the system sucessfully 
+
+TC03:
+1.Launch application
+2.Click login link
+3.Verif user navigated to login page
+4.Enter UserName and PassWord
+5.click on login button
+6.verify the user is login into the system sucessfully 
+7.Go to profile settings
+8.Add or modify the userdata
+9.Click on the save buttonn
+10.verify the data is saved on the system sucessfully.
+
+
+
+
+
+
+

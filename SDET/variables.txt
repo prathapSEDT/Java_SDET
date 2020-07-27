@@ -1,0 +1,163 @@
+If we want to write a program in java, we must need a class file
+class file is a place holder where we can write core business logics in java.
+
+so first understand what is the  structure  of a class file
+
+syntax:
+
+class ClassName{
+
+	1. variables
+	2. methods
+	3. constructor
+	4. static block
+	5. instance block
+}
+
+when we want to write the logic inside a class, we need to write in between the curly braces.
+
+when we want to execute the logics taht were written, there should be a main method available as a mandatory.
+
+the JVM will scan the whole class, to find if there is a main method available or not.
+
+if there is a main method avilable, user can find a run option enaled on the class file to execute program.
+
+
+so in class file there are 5 major components available
+
+
+	1. variables
+	2. methods
+	3. constructor
+	4. static block
+	5. instance block
+
+when we know about these components and their uses, user can write logics in java easily.
+
+Understand about variables in java
+
+1.variable
+variable is called as a memory holder to store the data where user can user any where in the program written java
+
+if we want to store the data inside a variable, we must required a empty memory block.
+
+to create a empty memory block, we need to craete a variable.
+
+creation of variable is called as declaration.
+
+
+
+when we create a memory block, we need to insert data into it.
+inserting data into the memory block is called as "intilaization"
+
+
+to see the data that is staored in a variable, we must need access them by the name of a variable.
+
+
+How to create a variable?
+
+before we create a variable, we need to tell the compiler, that what type of data are we going store inside a variable.
+
+such that based on the datatype, space will allocated in the memory for a vvariable to store teh data.
+
+
+datatype is the one which specify that what type of data are we going to store
+
+there are two types of datatypes available in java
+
+
+	* primitive datatype
+	* non primitive datatype
+
+
+primitive datatypes:
+
+	* boolean
+	* char
+	* byte
+	* short
+	* int
+	* long
+	* float
+	* double
+
+all these datypes are mainly foused size management in the memory
+
+
+boolean --- 1 bit
+
+char ---- 2 bits
+
+short -- 2 byte
+byte --- 1 byte
+int --- 4 bytes
+long --- 8 bytes
+float--4 bytes
+double -- 8 bytes
+
+
+boolean is used to store true or false values inside a varible.
+
+'a',;b'
+
+int------>> it is used to store the integral data in the java programming.
+
+its max value is -2147483 to 2147483
+
+
+ex: 100000 to -200000
+
+long data:100000L to -200000
+-9223..... to 9223.....
+
+float is used to store decimal values
+
+
+synatx to create a variable:
+
+datatype variableName;
+the above syntax is called as variable declaration
+
+inserting data into the memory block is called as intialization
+
+syntax:
+
+variableName= somevalue;
+
+
+user can avoid writting multiple lines in creating a variable.
+
+synatx:
+datatype variableName=some value;
+
+
+i have 4 variable of sam type, can i declare all my four variable in single line , specifying the datatype?
+
+Yes we can crate in a single of same dataype variables.
+
+
+while creating a variable as an user , i should remember few point.
+
+1.variable name should not haves any spaces in between.
+2.User can use a underscore , to separate the variable names, no other special character is allowed to have in sepaartion
+3.variables are case sensitive.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
