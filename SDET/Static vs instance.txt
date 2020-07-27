@@ -1,0 +1,33 @@
+Static vs instance:
+
+in java there are few rule applicable in understanding these two terms.
+
+
+for all static memebers class will allocate memeory on creation or on while loading the class 
+
+for all instance members, object will allocate memory.
+
+object is called as instance of class.
+
+creating of an object is called as "instantiation"
+
+object have capacity to pull the members(variable and methods) of a class
+
+
+so from today to access any static variable or methods we should access them by using, ClassName
+
+When the members are going to be static variable, the data will be stored in the memory for long till the execution is completed.
+
+for instance, if we create a new object , the old data will get vanish, beacuse whene ever we create an object an new memory allocation will be happen so that the variable data will get reinstalized.
+
+
+Consume Other class variables and method in another class?
+
+This concepts is more modularization.
+
+it mean that when you are writting any logic , separate the modules and write the code
+
+dont write all the logics in one palce so that it is easy to maintain the code and will have tarck on each module
+
+
+
