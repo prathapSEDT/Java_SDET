@@ -1,0 +1,35 @@
+How to identify the modules as a package?
+
+first analayse the flow of your application where it is getting started.
+
+in a web application each page or screen will be consider as one module
+
+while we design behaviours(methods), we consider each one of the functionality on the screen as on method.
+
+Ex:
+
+PageName== Login
+
+ClassName===Login
+
+Behaviours==login,forgetPassword,RestPassword,RememberPassword
+
+PageName=== Register
+ClassName==Register
+Behaviours---- RegisterNewUSer,EditUser,DeleteUser
+
+
+
+Now when we are writting behaviour for the application, we consider it as Application Utilities
+
+
+Definetly there will be some methods which are not part of the application
+Ex: createOutPutFolder,CreateResultFolder,SendEmail,DeleteFiles,MoveFiles etc......
+
+these type of methods are called GenericMEthods which will be used only on the framework level.
+
+
+now all teh application modules will depend on the Generic methods
+
+all the testcases will depend on Applicationutils
+

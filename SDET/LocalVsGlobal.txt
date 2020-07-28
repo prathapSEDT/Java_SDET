@@ -1,0 +1,56 @@
+Global variable vs Local Variable?
+
+Global variable is the variable which is defined at the class level but not inside the method.
+
+here defined is called as declaration.
+
+---- inside the class, outside the method--- creation-----Global variable
+
+when we create a variable as global variable, and if you are not intializing it to any value, then the compiler will take , default value based on the datatatype
+
+int==0
+boolean===flase
+double===0.0
+float====0.0
+byte==0
+char =' '
+long=0
+
+
+once you declare the variable as a global variable, you can access them in every of the program.
+
+variables declared inside a method, not outside a method,called it as local variables.
+localvariables can only be accessed within the method itself.
+we can not access them outside a method.
+
+there few rules applicable on the local variables.
+
+1.When you create a variable inside a method , and it is not intialized to any value. when we try to access the un-intialized variable then the compiler will throw an exception
+
+2.i have a variable as a global variable either intialized or not intialized., similarly i have same variable as a local variable, is it acceptable? if yes what is the value that will be considered by the compiler?
+
+Yes, we can have same variable name as global and aswell as local also.
+
+by default the prefference is given to local variable.
+
+to differentiate the local variable and the classlevel global variable we use the keyword called as "this"
+
+this is a keyword whoch is used to represent the current class variables and method.
+
+Note: this keyword can not be used inside the static block.
+
+3.Can i declare a static variable as local variable? if yes why ? if No why?
+No... because for the static memebers the memory will be allocated by teh class.
+as your variable is inside a method, by default the class can ot allocate the memory to the static memebers inside a method.
+
+4.i want to make a variable to utlized everywhere , but i dont want to change the value.
+for example i have a results output path stored inside a variable, i need to use ths variable where ever it is required but i dont not want to change the path. what is the solution?
+
+make the variable  as final;
+
+remeber that :
+when you make a variable as final. we can not change the value
+when you make a variable as final. we should intailaize the value
+final keyword can be used inside a method.
+
+
