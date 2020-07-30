@@ -6,12 +6,7 @@ public class Tc_01 {
 
         GenericMethods genericMethods=new GenericMethods();
 
-        genericMethods.launchBrowser();
-        genericMethods.clickElement("Register");
-        genericMethods.verifyElementExistance("Register");
-    RegistrationPage registrationPage=new RegistrationPage();
-    registrationPage.FillRegistartionPage();
-    registrationPage.verifyUserRegistation();
+        genericMethods.launchBrowser("CHROME");
 
 
     }

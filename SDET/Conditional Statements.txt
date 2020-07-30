@@ -1,0 +1,132 @@
+Conditional Statements:
+
+Conditional statements are used to control the flow of execution in the program.
+
+Java have different conditional statements
+
+	* simple if
+	* if else
+	* else if
+	* switch case
+
+simple if only if the condition is true, the body will get executed
+
+syntax:
+
+if ( condition) {
+//body
+}
+
+here the condition will always maps to true condition .
+we no need to mention that the condition as true.
+
+what are the types of condition can be written in java program
+
+	* equals ==
+	* greater than >
+	* lesser than	<
+	* greater than equal >=
+	* lesser than equal <=
+	* and &&
+	* or ||
+	* not !=
+
+if else:
+when the condition is false,then without checking any other condition some logic written by the user will get executed.
+
+first it will check the condition written in the if block, when the condition fails the body available in the else block will be get executed.
+
+synatx:
+
+if (condition){
+// true body
+}else{
+//false body
+}
+
+
+Else If:
+
+when the main if condition is false, and if the user want to check other condition, in such scenarios, else if condition will work.
+
+syntax:
+
+if(condition){
+
+// condition 1 is true
+
+}else if (condition 2){
+// condition 2 is true
+
+}else{
+//optional not mandatory
+}
+here we need understand taht, when ever if any condition mentioned is true, then that particular block will get executed, once the logic is completed then it will exit from the program. even though the other conditions are true, logics will never get executed.
+
+first come first server.
+
+
+writting too many else if conditions are bad practices.
+
+to over come this problem, in java switch cases are introduced.
+
+to eleminate multile else if block switch is much powerfull.
+
+Reason: switch case will execute based on key search manner.
+
+so user must know that what type of cases or condition will be available.
+
+when you know the conditions, write them using switch case as "case"
+
+here case is called as one condition.
+
+in the switch case first key will checked. key is also a condition.
+then it will check if there is a matched case available 
+
+if the matched case is available the control will jump directly to the case and logic will get executed.
+
+synatx:
+
+switch( key ){
+
+case condition1:
+	//logic 
+	break;
+case condition2:
+	//logic 
+	break;
+
+default:
+	//logic
+
+
+Problem statement:
+
+Raj want to verify the week days in the java program.when he input 1 it should display the output as monday
+
+2 - tue
+3- wed
+4- thr
+invalid--- no match
+
+
+
+
+what is meant by nested if?
+
+if with in the if condition, is called as nested if 
+
+
+
+
+Task:
+using methods and connditional statement , print 1-50
+
+
+
+
+
+}
+
+
+
