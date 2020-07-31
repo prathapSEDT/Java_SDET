@@ -1,0 +1,67 @@
+wht is meant by looping statement
+
+looping statement is called as execution same statement for multiple number of times
+
+looping sttaements are also used for the puropse of parametrization.
+
+it mean we need to replace the value of a variable in the run time.
+
+in java we have the following looping statements available.
+
+1.for loop
+2.while loop
+3.do while loop
+4.for each loop
+
+
+for loop is called as a definite loop.
+it have a starting point and aswell as an ending point.
+
+how the for loop will get executed
+
+syntax:
+
+for(int i=starting value;i<=endingvalue;i++)
+{
+// body of the loop
+}
+
+
+here in this for loop, first the compiler will take the starting value
+then the compiler will check wheter the starting value is less than the ending value, if the condition is true then only it will proceed, else it will not proceed.
+
+one the body of the loop is executed, the starting value will get incremented and then it will check the condition agaian, if it is trur it will execut the body else it will get exit
+
+
+
+break the loop:
+
+based upon some condition , if we want to exit out of the loop we use a keyword called as break.
+
+
+i am search for some value in an excel. but in an excel i have 50 rows, the data i am looking for is available at line number 7.now i foud it is available in 7, why do i need to proceed further to search data when my data is available at the line number 7 itself.
+
+we can exit as soon as we found the data.to exit out of the loop we use break keyword.
+
+
+
+
+continue keyword:
+
+to skip any current executing iteration, we use continue
+
+taks:1
+
+
+print fibonical series from 1-10
+
+print the prime numbers from 1-50
+
+print even and odd from 1-100
+
+print all the numbers divisible by 5 
+(try yo apply divisibility rules)
+
+print the factorial of a given number.
+
+

@@ -1,0 +1,26 @@
+What is debugging ?
+
+debugging is the process of analysing the code line by line to verify if there are any issues available in the system.
+
+it helps the user to understand what are values that are being stored by an variable in the run time.
+
+to intiate the debug process , first user needs to insert a break point.
+
+in the debug process we have three steps
+
+1.stepover
+to execute line by linein the code execution while performing debugging we use stepover
+
+while doing debug , if we come across any method in between, to skip that particular method, but we need to execute the whole code available inside the method. we use stepover
+
+
+2.StepInto:
+stepinto is used to enter inside the method, while performing debug process we use stepinto
+
+3.stepout:
+
+this method is used to exit from any method while doing debugging on the code.
+when you stepout from the method, it will execute the whole code and then it will get exit
+
+
+
