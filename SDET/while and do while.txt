@@ -1,0 +1,34 @@
+while and dowhile loop
+
+while loop: this loop is called as indeifinite loop.
+this loop will not have any self increment factor as how a for loop have
+
+user must write a failing condition, to exit out of the loop.
+
+how does a while loop execute?
+
+1.while loop will check the condition at the first step.
+2.if the condition is true, then only the body will get executed.
+3.inside the body once your logic complted, we must write the failing condition.
+
+syntax:
+
+while(some condition){
+//body logic
+// failing condition
+}
+
+
+DoWhileLoop:
+this loop will get executed as same as whileloop.
+
+the only difference is, this do while loop will not check for the condition for the first time.
+here the logic will execute atleast once
+one the logic inside the loop is completed, then only it will check for the condition.
+
+syntax:
+
+do{
+//body
+}while(condition);
+

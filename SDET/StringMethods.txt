@@ -1,0 +1,64 @@
+1.length
+
+this method is used to get the total length of the user given string.
+
+here teh count will match the total number of char, including white space.
+This method will return the integer value.
+synatx:string or string variable.length
+
+2.charAt():
+this method is used to get the char from the user given index position.
+
+syntax: string or string variable.charAt(index position)
+
+3.subString():
+this method is used to crop the sequence of characters on the given source string
+
+syntax:
+string or string variable.substring(starting position, length of chars);
+
+length of chars is an optional.
+if we are not going to specify the 2nd param, the compiler will crop the whole string from the stating point specified by the user.
+
+4.split():
+
+this method is used to split the given source string , based on delmiter.
+delimiter is the one which is used to take like a refrenece to break the string
+by default the delimitter will be a space
+this method will return an array
+
+synatx: String[] arr=String or string variable.split("delimiter");
+
+5.toLowercase and toUppercase
+
+these methods are used to convert the given source string into upper case or into lower case
+the return type of this method is string
+
+6.toCharArray()
+this method is used to convert the user given source string into char array
+char arr will store each char in a sepcied index, including what spaces.
+
+7.trim()
+this method is used to remove the space available at starting and ending of the given source string.
+
+"                 India                  "
+
+8.isEmpty():
+thismethod is used to check wheter the user given string is an empty
+
+
+8.indexOf
+this method is used to get teh position of the user given character on the source string
+
+this method will indentify only the first occurance.
+
+india india
+
+in such cases , the position first india will take into consideration
+
+as this method return the postion, the position will be the position of first char available on the given word
+
+9.conatins():
+this method is used to verify if the user given word is available in the source string or not
+this method will return a boolean value.
+
