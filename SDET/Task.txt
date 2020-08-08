@@ -1,0 +1,49 @@
+1.My Transaction ID : 789456 @The Voucher Number : 741258 @The Journal Number : 741258@
+
+Now i want my output to be displayed as
+
+My Transaction ID : 789456
+The Voucher Number : 741258
+The Journal Number : 741258
+
+
+
+2.I am learning java for SDET Role, in this string the word SDET will be keep replacing every time, iwant to get the word SDET and the position of it
+
+
+3.I have string as 
+
+WelcomeTolearnPythonWelcomeTolearnjavawelcometounderstandDevops
+
+from this given string , print how many times welcome got repeated
+
+4.I have a string as 11111100000000000, now do the follwowing
+
+replace all the 1 with 0
+replace all the 0 with 1
+
+5.String as 3a4B5C7
+
+now i want to print the output as 
+
+aaa
+bbbb
+ccccc
+7----ignored
+
+6.AB65BC7678DE34
+
+get the sum of all the numbers like===65+7678+34
+
+7.welcomeToJavatraining
+
+where ever you found a capital letter , insert a underscore
+welcome_To_Javatraining
+
+
+
+
+
+
+
+
